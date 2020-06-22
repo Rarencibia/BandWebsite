@@ -1,0 +1,45 @@
+html body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    align-items: center;
+
+
+}
+
+.logo {
+    font-family: 'Piedra', cursive;
+}
+
+li {
+    color: white;
+}
+
+
+.nav-links {
+    display: flex;
+    font-family: 'Piedra', cursive;
+    font-size: 25px;
+}
+
+
+.nav-item {
+    padding: 0px;
+    margin-right: 80px;
+    list-style: none;
+}
+
+a:link:hover {
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: black;
+}
